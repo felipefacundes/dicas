@@ -15,3 +15,5 @@ Caso precise instalar o jogo do seu HD, porque já o possui, e não quer baixá-
 - "Opcional para quem quiser fazer alterações"
 
 Copie o comando: **xdg-open ~/.jogos/scripts/run/...** referente ao seu jogo. E faça às alterações do caminho do instalado e do executável. O script é alto explicativo, é FÁCIL. Após instalar, coloque o caminho do executável, já instalado.
+
+![Tuto install manual](https://raw.githubusercontent.com/felipefacundes/desktop/master/wine-jogos/imagens/TuToinst_manual.gif)
