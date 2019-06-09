@@ -3,7 +3,7 @@
 Aguarde o Upload do vídeo tutorial para o YouTube.
 <br></br>
 
-Enquanto não é feito o Upload do vídeo, veja o **Gif** para ter uma noção de como instalar o jogo desejado (ou software do Windows). **LEMBRANDO QUE ESSE GIF É MERAMENTE EXMPLIFICATIVO É SÓ ADAPTAR O CONCEITO.**
+Enquanto não é feito o Upload do vídeo, veja o **Gif** para ter uma **noção** de como instalar o jogo desejado (ou software do Windows). **LEMBRANDO QUE ESSE GIF É MERAMENTE EXMPLIFICATIVO É SÓ ADAPTAR O CONCEITO.**
 
 ![Tuto install](https://raw.githubusercontent.com/felipefacundes/desktop/master/wine-jogos/imagens/TuToinst.gif)
 
