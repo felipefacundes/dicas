@@ -14,7 +14,7 @@ Enquanto não é feito o Upload do vídeo, veja o **Gif** para ter uma **noção
 
 ###### "Opcional para quem quiser fazer alterações"
 
-Copie o comando: **xdg-open ~/.jogos/scripts/run/...** referente ao seu jogo. E faça às alterações do caminho do instalador e do executável para instalar. Saiba, que o script é alto explicativo, é FÁCIL. Após instalar, **altere novamente**, e dessa vez, coloque o caminho do executável, já instalado. **NÃO Esqueça de SALVAR (Ctrl + s)**. Veja esse outro **Gif** a seguir, olha que fácil:
+Copie o comando: **xdg-open ~/.jogos/scripts/run/...** referente ao seu jogo. E faça às alterações do caminho do instalador e do executável para instalar. Saiba, que o script é alto explicativo, é FÁCIL. Após instalar, **altere novamente**, e dessa vez, coloque o caminho do executável, já instalado. **NÃO esqueça de SALVAR (Ctrl + s)**. Veja esse outro **Gif** a seguir, olha que fácil:
 
 ![Tuto install manual](https://raw.githubusercontent.com/felipefacundes/desktop/master/wine-jogos/imagens/TuToinst_manual.gif)
 
