@@ -3,7 +3,7 @@
 **Atenção: LEIA, há três Gifs abaixo. Leia, e veja os Gifs.**
 <br></br>
 
-Veja o **Gif** para ter uma **noção** de como instalar o Jogo desejado (ou software do Windows). **LEMBRANDO QUE ESSE GIF É MERAMENTE EXEMPLIFICATIVO.** OU SEJA, SERVE PRA TUDO QUE HÁ NO PlayOnGit. **É SÓ ADAPTAR O CONCEITO.**
+Veja o **Gif** para ter uma **noção** de como **instalar** o **Jogo** desejado (ou software do Windows). **LEMBRANDO QUE ESSE GIF É MERAMENTE EXEMPLIFICATIVO.** OU SEJA, SERVE PRA TUDO QUE HÁ NO PlayOnGit. **É SÓ ADAPTAR O CONCEITO.**
 
 ![Tuto install](https://raw.githubusercontent.com/felipefacundes/desktop/master/wine-jogos/imagens/TuToinst.gif)
 
