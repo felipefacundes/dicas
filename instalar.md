@@ -25,7 +25,5 @@ Todas às instalações de Jogos do **PlayOnGit** mostrará a opção de habilit
 **Caso queira apagar o menu "Wine" do seu "menu iniciar"** FAÇA O SEGUINTE:
 
 ```
-cd ~/.local/share/applications/
-
-rm -rf *wine*
+rm -rf ~/.local/share/applications/*wine*
 ```
