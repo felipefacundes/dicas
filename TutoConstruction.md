@@ -27,3 +27,9 @@ Todas às instalações de Jogos do **PlayOnGit** mostrará a opção de habilit
 ```
 rm -rf ~/.local/share/applications/*wine*
 ```
+
+**Para matar o processo de um jogo ou software do Windows** EXECUTE O SEGUINTE COMANDO:
+
+```
+bash -c "pkill -9 .exe; pkill -9 wine; pkill -9 wineserver"
+```
