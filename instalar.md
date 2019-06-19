@@ -1,4 +1,4 @@
-# PROCESSO SIMPLES DE INSTALAÇÃO DO PlayOnGit 🕹
+# PROCESSO DE INSTALAÇÃO DO PlayOnGit 🕹
 
 **Atenção: LEIA, há três Gifs abaixo. Leia, e veja os Gifs.**
 <br></br>
