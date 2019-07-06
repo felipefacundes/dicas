@@ -1,5 +1,5 @@
 # Instale o Vulkan e às dependências necessárias para JOGOS na sua distribuição Linux
-### Primeiro saiba que é o suporte as aplicações 32 bits. São necessários para os principais softwares utilizados, como o WINE e JOGOS.
+### Primeiro saiba que o suporte às bibliotecas 32 bits: são necessários para os principais softwares utilizados, como o WINE e JOGOS.
 
 
 ##### Para Arch Linux e derivados (Arch Labs, Artix, Manjaro e etc) basta executar o comando abaixo exatamente da forma como se segue, isso não só instalará o driver vulkan, como melhorará o desempenho em softwares de designers 2d, 3d e também em JOGOS:
