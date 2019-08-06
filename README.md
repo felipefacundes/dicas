@@ -21,11 +21,21 @@ sudo apt-get install ia32-libs
 
 sudo dpkg --add-architecture i386
 
-sudo apt-get install wine32-development
+sudo apt-get install wine32-development 
+
+sudo apt-get install mesa-vulkan-drivers vulkan-utils libassimp4 libvulkan1
 
 sudo apt-get install dxvk dxvk-wine32-development dxvk-wine64-development libvkd3d-dev libvkd3d-utils1 libvkd3d1 libvulkan-dev libvulkan1 mesa-vulkan-drivers renderdoc vkd3d-demos vulkan-tools vulkan-utils vulkan-validationlayers vulkan-validationlayers-dev winehq-staging
 ```
+##### Para FEDORA e DERIVADOS os comandos podem variar, dependendo da versão e distribuição utilizada e é recomendado utilizar às versões recentes da sua distro:
 
+```
+sudo dnf -y install dnf-plugins-core
+
+dnf config-manager --add-repo https://dl.winehq.org/wine-builds/fedora/30/winehq.repo
+
+sudo dnf install winehq-staging
+```
 ##### Segundo. Certifique-se que o seu driver Vulkan está habilitado. Para plascas Nvídia, basta instalar o driver proprietário. Para placas RADEON da AMD, siga esse meu tutorial abaixo:
 https://amdgpu.github.io/
 
