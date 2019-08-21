@@ -34,7 +34,7 @@ sudo dnf -y install dnf-plugins-core
 
 dnf config-manager --add-repo https://dl.winehq.org/wine-builds/fedora/30/winehq.repo
 
-sudo dnf install winehq-staging
+sudo dnf install winehq-staging wget dialog
 ```
 ##### Segundo. Certifique-se que o seu driver Vulkan está habilitado. Para plascas Nvídia, basta instalar o driver proprietário. Para placas RADEON da AMD, siga esse meu tutorial abaixo:
 https://amdgpu.github.io/
