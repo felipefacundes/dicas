@@ -36,15 +36,11 @@ dnf config-manager --add-repo https://dl.winehq.org/wine-builds/fedora/30/winehq
 
 sudo dnf -y install winehq-staging wget dialog libnotify
 ```
-##### Segundo. Certifique-se que o seu driver Vulkan está habilitado. Para plascas Nvídia, basta instalar o driver proprietário. Para placas RADEON da AMD, siga esse meu tutorial abaixo:
+
+##### Segundo. Aumente a performance com mais +50 de FPS - habilite o Esync.
+https://tuninglinux.github.io
+
+##### Terceiro. Certifique-se que o seu driver Vulkan está habilitado. Para plascas Nvídia, basta instalar o driver proprietário. Para placas RADEON da AMD, siga esse tutorial abaixo:
 https://amdgpu.github.io/
-
-##### Terceiro. Aumente a performance com mais +50 de FPS - habilite o Esync.
-
-```bash
-su -c 'echo -e "* hard nofile 1048576" >> /etc/security/limits.conf'
-su -c 'echo -e "vm.swappiness=0" > /etc/sysctl.conf'
-reboot
-```
 
 [![Vamos_aos_Jogos](https://raw.githubusercontent.com/felipefacundes/desktop/master/wine-jogos/imagens/vamos_aos_jogos.gif)](https://github.com/felipefacundes/PlayOnGit)
