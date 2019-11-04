@@ -1,34 +1,34 @@
-# PlayOnGit Installation Process 🕹
+# PROCESSO DE INSTALAÇÃO DO PlayOnGit 🕹
 
-**Attention: READ, there are three Gifs below. Read, and see the Gifs.**
+**Atenção: LEIA, há três Gifs abaixo. Leia, e veja os Gifs.**
 <br></br>
 
-See **Gif** for a **notion** of how to **install** the desired **Game** (or Windows software). **REMEMBERING THAT GIF IS FOREIGNALLY EXAMPLE.** WHAT IS, IT FITS EVERYTHING ON PLAYOnGIT. **JUST ADAPT THE CONCEPT.**
+Veja o **Gif** para ter uma **noção** de como **instalar** o **Jogo** desejado (ou software do Windows). **LEMBRANDO QUE ESSE GIF É MERAMENTE EXEMPLIFICATIVO.** OU SEJA, SERVE PRA TUDO QUE HÁ NO PlayOnGit. **É SÓ ADAPTAR O CONCEITO.**
 
 ![Tuto install](https://raw.githubusercontent.com/felipefacundes/desktop/master/wine-jogos/imagens/TuToinst.gif)
 
-**See how easy it is**. Just copy the entire command line and paste it into **terminal**: hit ENTER, and you're done. Game installed, ready to use: right in the start menu> games.
+**Viu como é fácil**. Basta copiar a linha inteira do comando e colar no **terminal**: dê ENTER, e pronto. Jogo instalado, pronto para uso: direto no menu iniciar > jogos.
 
 <br></br>
-**If you need to** install the game from your hard drive, because you already have it, and don't want to download it again. Just go to **PlayOnGit** in the part:
+**Caso precise** instalar o jogo do seu HD, porque já o possui, e não quer baixá-lo novamente. Basta, ir no **PlayOnGit** na parte:
 
 ###### "Opcional para quem quiser fazer alterações"
 
-Copy the command: **xdg-open ~/.jogos/scripts/run/...** for your game. And make changes to the installer path and executable to install. Know, that the script is high explanatory, is EASY. After installing **change again**, this time enter the path of the executable already installed. **DO NOT forget to SAVE (Ctrl + s)**. See this other **Gif** below, look how easy:
+Copie o comando: **xdg-open ~/.jogos/scripts/run/...** referente ao seu jogo. E faça às alterações do caminho do instalador e do executável para instalar. Saiba, que o script é alto explicativo, é FÁCIL. Após instalar, **altere novamente**, e dessa vez, coloque o caminho do executável, já instalado. **NÃO esqueça de SALVAR (Ctrl + s)**. Veja esse outro **Gif** a seguir, olha que fácil:
 
 ![Tuto install manual](https://raw.githubusercontent.com/felipefacundes/desktop/master/wine-jogos/imagens/TuToinst_manual.gif)
 
 <br></br>
-All **PlayOnGit** Game installations will show the option to enable **Virtual Desktop**. This option is important as it becomes more compatible with games, eg GTA San Andreas, only runs on Virtual Desktop. Not to mention, enabling this option makes it easier to close your games with the keyboard shortcut: Alt + F4, making your gameplay extremely efficient. So it's always worth enabling this option on the **Graphics Tab** as shown in the Gif below.
+Todas às instalações de Jogos do **PlayOnGit** mostrará a opção de habilitar o **Desktop Virtual**. Essa opção é importante, pois torna-se mais compatível com jogos, exemplo, GTA San Andreas, só roda em Desktop Virtual. Sem dizer que, habilitar essa opção facilita ao fechar os seus jogos com o atalho de teclado: Alt + F4, tornando extremamente eficiente à sua jogabilidade. Então, sempre vale a pena habilitar essa opção, na **Guia Gráficos** como demontrado no Gif abaixo.
 ![Desktop Virtual](https://raw.githubusercontent.com/felipefacundes/desktop/master/wine-jogos/imagens/Desktop_Virtual.gif)
 
-**If you want to delete the "Wine" menu from your "start menu"** DO THE FOLLOWING:
+**Caso queira apagar o menu "Wine" do seu "menu iniciar"** FAÇA O SEGUINTE:
 
 ```
 rm -rf ~/.local/share/applications/*wine*
 ```
 
-**To kill the process of a Windows game or software** RUN THE FOLLOWING COMMAND:
+**Para matar o processo de um jogo ou software do Windows** EXECUTE O SEGUINTE COMANDO:
 
 ```
 bash -c "pkill -9 .exe; pkill -9 wine; pkill -9 wineserver"
