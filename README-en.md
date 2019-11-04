@@ -42,4 +42,4 @@ https://tuninglinux.github.io
 ##### Third. Make sure your Vulkan driver is enabled. For Plastas Nvidia, simply install the proprietary driver. For AMD RADEON boards, follow this tutorial below:
 https://amdgpu.github.io/
 
-[![Vamos_aos_Jogos](https://raw.githubusercontent.com/felipefacundes/desktop/master/wine-jogos/imagens/vamos_aos_jogos.gif)](https://github.com/felipefacundes/PlayOnGit)
+[![Vamos_aos_Jogos](https://raw.githubusercontent.com/felipefacundes/desktop/master/wine-jogos/imagens/vamos_aos_jogos.gif)](https://github.com/felipefacundes/PlayOnGit-en)
