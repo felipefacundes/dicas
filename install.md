@@ -31,5 +31,5 @@ rm -rf ~/.local/share/applications/*wine*
 **To kill the process of a Windows game or software** RUN THE FOLLOWING COMMAND:
 
 ```
-bash -c "pkill -9 .exe; pkill -9 wine; pkill -9 wineserver"
+ps ax|egrep '*\.exe'|grep -v 'egrep'|awk '{print $1 }' | xargs kill -9 $1
 ```
