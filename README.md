@@ -13,6 +13,8 @@ sudo pacman -Syy --noconfirm cabextract egl-wayland eglexternalplatform libglvnd
 ```
 sudo apt-get update
 
+sudo apt-get install vulkan-validationlayers winetricks zstd
+
 sudo apt-get install wget dialog libnotify-bin
 
 sudo apt-get install libc6:i386
@@ -24,8 +26,6 @@ sudo dpkg --add-architecture i386
 sudo apt-get install wine32-development 
 
 sudo apt-get install mesa-vulkan-drivers vulkan-utils libassimp4 libvulkan1
-
-sudo apt-get install vulkan-validationlayers winetricks
 
 sudo apt-get install dxvk dxvk-wine32-development dxvk-wine64-development libvkd3d-dev libvkd3d-utils1 libvkd3d1 libvulkan-dev libvulkan1 mesa-vulkan-drivers renderdoc vkd3d-demos vulkan-tools vulkan-utils vulkan-validationlayers vulkan-validationlayers-dev winehq-staging
 ```
